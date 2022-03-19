@@ -46,15 +46,15 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
   - Learn about `nn.Conv.2d`, `nn.AvgPool2d`
   
  * D2L_CNNs.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_CNNs.ipynb)
-  - Creating AlexNet, VGG-11, NiN (Network in Network), Google LeNet (Inception),Batch Normalization layer, ResNet and DenseNet from scratch
-  - Learn about `nn.BatchNorm2d`, `nn.AdaptiveAvgPool2d` (Global Average Pooling)
-  
+    - Creating AlexNet, VGG-11, NiN (Network in Network), Google LeNet (Inception),Batch Normalization layer, ResNet and DenseNet from scratch
+    - Learn about `nn.BatchNorm2d`, `nn.AdaptiveAvgPool2d` (Global Average Pooling)
+
  * D2L_Text_Basics.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Text_Basics.ipynb)
-  - Creating a tokenizer and vocabulary, random & sequential sampling and Sequence Data Loader
-  - Learn about corpus statistics (unigrams,bigrams,trigrams)
+    - Creating a tokenizer and vocabulary, random & sequential sampling and Sequence Data Loader
+    - Learn about corpus statistics (unigrams,bigrams,trigrams)
 
 * D2L_Seq_Models.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Seq_Models.ipynb) 
-  - character level RNNs,GRUs,LSTMs,stacked models, bidirectional models
-  - Learn about `torch.nn.functional.one_hot`,`nn.RNN`,`nn.GRU`,`nn.LSTM` and when **NOT** to use bidirectional networks
+    - character level RNNs,GRUs,LSTMs,stacked models, bidirectional models
+    - Learn about `torch.nn.functional.one_hot`,`nn.RNN`,`nn.GRU`,`nn.LSTM` and when **NOT** to use bidirectional networks
 
   

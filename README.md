@@ -57,4 +57,6 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
     - character level RNNs,GRUs,LSTMs,stacked models, bidirectional models
     - Learn about `torch.nn.functional.one_hot`,`nn.RNN`,`nn.GRU`,`nn.LSTM` and when **NOT** to use bidirectional networks
 
-  
+* D2L_NMT.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_NMT.ipynb) 
+    - GRU and LSTM based encoder-decoder machine translation
+    - Learn about generating dataloaders for machine translation, padding , truncating, end-to-end neural machine translation and BLEU evaluation

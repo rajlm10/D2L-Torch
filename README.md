@@ -64,3 +64,8 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
 * D2L_NWKR.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_NWKR.ipynb) 
     - Nadaraya Watson Kernel Regression, (non-parametric and parametric attention pooling)
     - Learn about an early form of attention for regression problems, both parametric and non-parametric.
+
+
+* D2L_Attention_Mechanisms.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Attention_Mechanisms.ipynb) 
+    - Different Attention Mechanisms used in Seq2Seq Models
+    - Learn about Attention used in NMT, Bahdnau Attention (Additive Attention form) in GRU based Seq2Seq Models, Self Attention , Multi-Headed Attention, Positional Encodings (Traditional sinusoidal) and the Transformer.

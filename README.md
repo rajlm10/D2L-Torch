@@ -74,3 +74,8 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
     - Different Optimization scenarios and algorithms. 
     - Learn about GD, SGD, Variable Learning rates, Mini-batch GD ,Preconditioning , Momentum , AdaGrad , RMSProp, Adadelta, Adam , Yogi , Schedulers and Policies
     - Note that the book goes into much more mathematical detail and includes proofs (That I have left out).
+
+* D2L_Distributed_Training.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Distributed_Training.ipynb) 
+    - Speeding up training using distibuted GPU training, synchronizing computation, PyTorch's auto parallelism 
+    - Learn about Hybrid Programming, Asynchronous Computation, Automatic Parallelism, Multi-GPU training, `nn.parallel.scatter`,`nn.DataParallel`,`torch.cuda.synchronize`
+    - Note that a few sections in the notebook won't run on colab due to the requirement of multiple GPUs (atleast 2)

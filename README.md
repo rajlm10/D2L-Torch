@@ -79,3 +79,8 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
     - Speeding up training using distibuted GPU training, synchronizing computation, PyTorch's auto parallelism 
     - Learn about Hybrid Programming, Asynchronous Computation, Automatic Parallelism, Multi-GPU training, `nn.parallel.scatter`,`nn.DataParallel`,`torch.cuda.synchronize`
     - Note that a few sections in the notebook won't run on colab due to the requirement of multiple GPUs (atleast 2)
+
+* D2L_Tuning.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Tuning.ipynb) 
+    - Augment Datasets using  for robust training and learn how to fine-tune for image-classification.
+    - Learn augmenting through `torchvision.transforms.RandomHorizontalFlip`,`torchvision.transforms.RandomVerticalFlip`,`torchvision.transforms.RandomResizedCrop`,
+ `torchvision.transforms.ColorJitter` and setting multiple learning rates for training different parameters of the same network and a small trick to further improve fine-tuning image classes found in ImageNet.

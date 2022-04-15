@@ -84,3 +84,7 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
     - Augment Datasets using  for robust training and learn how to fine-tune for image-classification.
     - Learn augmenting through `torchvision.transforms.RandomHorizontalFlip`,`torchvision.transforms.RandomVerticalFlip`,`torchvision.transforms.RandomResizedCrop`,
  `torchvision.transforms.ColorJitter` and setting multiple learning rates for training different parameters of the same network and a small trick to further improve fine-tuning image classes found in ImageNet.
+ 
+ * D2L_Object_Detection.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Object_Detection.ipynb) 
+    - Learn about anchor boxes and multiscale object detection. Note this is one of the tougher and more mathematical notebooks.
+    

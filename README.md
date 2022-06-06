@@ -86,5 +86,6 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
  `torchvision.transforms.ColorJitter` and setting multiple learning rates for training different parameters of the same network and a small trick to further improve fine-tuning image classes found in ImageNet.
  
  * D2L_Object_Detection.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Object_Detection.ipynb) 
-    - Learn about anchor boxes and multiscale object detection. Note this is one of the tougher and more mathematical notebooks.
-    
+    - Learn about multiscale object detection using a Single Shot Detector (from scratch). Note this is one of the tougher and more mathematical notebooks.
+    - Learn about generating anchor boxes at different scales and ratios, sampling pixels uniformly from images as centres to generate anchor boxes, an algorithm to map the generated anchor boxes to ground truth bounding boxes,Non-maximal supression, the SSD architecture from scratch, and the object detection loss function.
+    - This is one of the best chapters in the book since its very detailed and delves into the nitty-gritties of object detection. I spent a lot of time on this notebook due to its size. One tip I'd like to give here is keep track of the dimensions of tensors at all times since there are so many functions and transformations. Some functions in here are gold mines, they are scalable and blazing fast.

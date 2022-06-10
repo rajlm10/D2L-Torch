@@ -95,3 +95,7 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
     - Semantic Segmentation using a CNN on the PASCAL VOC 2012 dataset.
     - Learn about preprocessing data for semantic segmentation and transposed convolutions.
     - May require high RAM (unless you drastically reduce batch_size)
+
+* D2L_Neural_Style_Transfer.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Neural_Style_Transfer.ipynb) 
+    - Neural Style Transfer using a VGG-19.
+    - Learn about the features needed to retain the content style and those to inject styles from the style image. Learn about the content loss and the gram matrix.

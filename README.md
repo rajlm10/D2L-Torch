@@ -99,3 +99,7 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
 * D2L_Neural_Style_Transfer.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Neural_Style_Transfer.ipynb) 
     - Neural Style Transfer using a VGG-19.
     - Learn about the features needed to retain the content style and those to inject styles from the style image. Learn about the content loss and the gram matrix.
+
+* D2L_CIFAR10_Challenge.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_CIFAR10_Challenge.ipynb) 
+    - Efficient Net B0 on CIFAR10. 
+    - **Focus isn't on accuracy** but organizing the project,splitting the dataset properly, calculating mean and standard deviation for a dataset (to normalize the data) and using pretrained models.

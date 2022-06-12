@@ -103,3 +103,7 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
 * D2L_CIFAR10_Challenge.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_CIFAR10_Challenge.ipynb) 
     - Efficient Net B0 on CIFAR10. 
     - **Focus isn't on accuracy** but organizing the project,splitting the dataset properly, calculating mean and standard deviation for a dataset (to normalize the data) and using pretrained models.
+
+* D2L_DogBreeds_Kaggle.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_DogBreeds_Kaggle.ipynb) 
+    - Deit tiny(FAIR) on Dog Breed Identification Dataset. 
+    - Learn how to use HuggingFace and DEIT (a better performing variant of the vision transformer) on a custom dataset. Learn how to convert a custom image dataset to a HuggingFace image dataset and use the HuggingFace Trainer to train the model.

@@ -107,3 +107,7 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
 * D2L_DogBreeds_Kaggle.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_DogBreeds_Kaggle.ipynb) 
     - Deit tiny(FAIR) on Dog Breed Identification Dataset. 
     - Learn how to use HuggingFace and DEIT (a better performing variant of the vision transformer) on a custom dataset. Learn how to convert a custom image dataset to a HuggingFace image dataset and use the HuggingFace Trainer to train the model.
+
+* D2L_Word2Vec.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Word2Vec.ipynb) 
+    - Train a Skip-gram model from scratch. 
+    - Learn about sampling techniques, negative sampling for efficient training, word vectors, dealing with high-frequency words.

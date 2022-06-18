@@ -111,3 +111,7 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
 * D2L_Word2Vec.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Word2Vec.ipynb) 
     - Train a Skip-gram model from scratch. 
     - Learn about sampling techniques, negative sampling for efficient training, word vectors, dealing with high-frequency words.
+
+* D2L_Word_Vectors.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Word_Vectors.ipynb) 
+    - Use GloVe and fasttext. 
+    - Learn about using word embeddings to calculate similarities and analogies between words.

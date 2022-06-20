@@ -115,3 +115,10 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
 * D2L_Word_Vectors.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Word_Vectors.ipynb) 
     - Use GloVe and fasttext. 
     - Learn about using word embeddings to calculate similarities and analogies between words.
+ 
+* D2L_Pretraining_BERT.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Pretraining_BERT.ipynb) 
+    - Write BERT from scratch and pretrain it on Wiki-Text-2 using the MLM and NSP objective. 
+    - Learn how to write BERT from scratch, how to use `torch.einsum` and coding the Masked Language Modelling objective and the Next Sentence Prediction Objective
+    - One of my favourite chapters in the book!
+    - I refactored the code in the book to incorporate `Einops` which makes it more readable, easier to understand, faster to code tensor operations and rearrangements and reduces the need to write a few extra classes and functions. I also decided to refactor the `Masked Softmax` class in the book and make it a part of the `MultiHeadAttention` Class
+    - Note that since I had access to a Tesla V100, I decided to use a full scale BERT architecture but for the free colab tier, stick to a BERT with 2 layers, 128 hidden dims and 2 attention heads.

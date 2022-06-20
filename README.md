@@ -20,6 +20,8 @@ _**Since I have some experience in Deep Learning (with Tensorflow), my aim here 
 
 
 Here, is what each notebook contains and the PyTorch constructs you will find in each of them:
+
+## Basics
 * D2L_LNN.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_LNN.ipynb)
   - A simple linear regression model 
   - Learn about `torch.utils.data.TensorDataset`,`torch.utils.data.DataLoader`,`nn.Sequential`,`nn.Linear`,`nn.MSELoss`,`torch.optim.SGD`
@@ -41,6 +43,7 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
   - Learn about `nn.init.xavier_`, Extracting network parameters in different ways, initializing shared parameters, Xavier initialization, subclassing nn.Module,saving and loading tensors/whole models and GPUs
   - The runtime error here is **intentional** and serves to show why tensors must be on the same device (same CPU or same GPU) during computations.
 
+## Deep Learning for Vision Basics
 * D2L_Conv_Basics.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Conv_Basics.ipynb)
   - Creating convolutions from scratch, padding, pooling and LeNet
   - Learn about `nn.Conv.2d`, `nn.AvgPool2d`
@@ -49,6 +52,8 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
     - Creating AlexNet, VGG-11, NiN (Network in Network), Google LeNet (Inception),Batch Normalization layer, ResNet and DenseNet from scratch
     - Learn about `nn.BatchNorm2d`, `nn.AdaptiveAvgPool2d` (Global Average Pooling)
 
+
+## Deep Learning for Text Basics
  * D2L_Text_Basics.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Text_Basics.ipynb)
     - Creating a tokenizer and vocabulary, random & sequential sampling and Sequence Data Loader
     - Learn about corpus statistics (unigrams,bigrams,trigrams)
@@ -70,6 +75,8 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
     - Different Attention Mechanisms used in Seq2Seq Models
     - Learn about Attention used in NMT, Bahdnau Attention (Additive Attention form) in GRU based Seq2Seq Models, Self Attention , Multi-Headed Attention, Positional Encodings (Traditional sinusoidal) and the Transformer.
 
+
+## Optimization and Distributed Training
 * D2L_Optimization.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Optimization.ipynb) 
     - Different Optimization scenarios and algorithms. 
     - Learn about GD, SGD, Variable Learning rates, Mini-batch GD ,Preconditioning , Momentum , AdaGrad , RMSProp, Adadelta, Adam , Yogi , Schedulers and Policies
@@ -80,6 +87,7 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
     - Learn about Hybrid Programming, Asynchronous Computation, Automatic Parallelism, Multi-GPU training, `nn.parallel.scatter`,`nn.DataParallel`,`torch.cuda.synchronize`
     - Note that a few sections in the notebook won't run on colab due to the requirement of multiple GPUs (atleast 2)
 
+## Deep Learning Applications for Computer Vision
 * D2L_Tuning.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Tuning.ipynb) 
     - Augment Datasets using  for robust training and learn how to fine-tune for image-classification.
     - Learn augmenting through `torchvision.transforms.RandomHorizontalFlip`,`torchvision.transforms.RandomVerticalFlip`,`torchvision.transforms.RandomResizedCrop`,
@@ -107,6 +115,9 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
 * D2L_DogBreeds_Kaggle.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_DogBreeds_Kaggle.ipynb) 
     - Deit tiny(FAIR) on Dog Breed Identification Dataset. 
     - Learn how to use HuggingFace and DEIT (a better performing variant of the vision transformer) on a custom dataset. Learn how to convert a custom image dataset to a HuggingFace image dataset and use the HuggingFace Trainer to train the model.
+
+
+## Deep Learning Applications for NLP
 
 * D2L_Word2Vec.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Word2Vec.ipynb) 
     - Train a Skip-gram model from scratch. 

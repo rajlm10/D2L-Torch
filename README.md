@@ -115,6 +115,7 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
 * D2L_DogBreeds_Kaggle.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_DogBreeds_Kaggle.ipynb) 
     - Deit tiny(FAIR) on Dog Breed Identification Dataset. 
     - Learn how to use HuggingFace and DEIT (a better performing variant of the vision transformer) on a custom dataset. Learn how to convert a custom image dataset to a HuggingFace image dataset and use the HuggingFace Trainer to train the model.
+    - I have added the Deit model, the book uses a traditional pretrained CNN.
 
 
 ## Deep Learning Applications for NLP
@@ -133,3 +134,9 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
     - One of my favourite chapters in the book!
     - I refactored the code in the book to incorporate `Einops` which makes it more readable, easier to understand, faster to code tensor operations and rearrangements and reduces the need to write a few extra classes and functions. I also decided to refactor the `Masked Softmax` class in the book and make it a part of the `MultiHeadAttention` Class
     - Note that since I had access to a Tesla V100, I decided to use a full scale BERT architecture but for the free colab tier, stick to a BERT with 2 layers, 128 hidden dims and 2 attention heads.
+
+* D2L_Sentiment_Analysis.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Sentiment_Analysis.ipynb) 
+    - Train a Bidirectional LSTM and a 1-D CNN (TextCNN) on the IMDB dataset and tune hyperparameters with Optuna. 
+    - Learn how to use pretrained embeddings in your models, using a BiLSTM, multiple variations of 1-D CNNs including those with positional embeddings (sinusoidal and learnable). Also see how we can use Optuna to tune the hyperparameters of a model.
+    - I have added the code to tune the hyperparameters (it is not a part of the book) and added a few variations based on the Exercise in the book 
+    - Note that tuning hyperparameters requires a powerful GPU so feel free to skip that section.

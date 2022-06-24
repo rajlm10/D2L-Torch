@@ -140,3 +140,7 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
     - Learn how to use pretrained embeddings in your models, using a BiLSTM, multiple variations of 1-D CNNs including those with positional embeddings (sinusoidal and learnable). Also see how we can use Optuna to tune the hyperparameters of a model.
     - I have added the code to tune the hyperparameters (it is not a part of the book) and added a few variations based on the Exercise in the book 
     - Note that tuning hyperparameters requires a powerful GPU so feel free to skip that section.
+ 
+* D2L_SNLI.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_SNLI.ipynb) 
+    - Train a decomposable attention model on the Stanford Natural Language Inference dataset. 
+    - Learn how to use a MLP and attention to train an efficient model.

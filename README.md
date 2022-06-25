@@ -144,3 +144,13 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
 * D2L_SNLI.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_SNLI.ipynb) 
     - Train a decomposable attention model on the Stanford Natural Language Inference dataset. 
     - Learn how to use a MLP and attention to train an efficient model.
+
+* D2L_SNLI_HuggingFace.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_SNLI_HuggingFace.ipynb) 
+    - Tuned [BORT]([url](https://github.com/alexa/bort)) from the Hugging Face hub on the Stanford Natural Language Inference dataset. 
+    - Learn how to use a HuggingFace model, create a custom dataset compatabile with HuggingFace and use dynamic padding
+    - You can use any model of your choice, I just wanted to experiment with BORT
+    - I was very lucky to gain access to a NVIDIA A-100 40 GB GPU and would recommend that you significantly reduce the batch size in the notebook on regular colab instances.
+    - Also note how always using a transformer model does not help. In the previous notebook, decomposable attention reached a much better accuracy score and more importantly took 45 minutes lesser to train.
+ 
+## Generative Deep Learning
+

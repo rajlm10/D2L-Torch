@@ -153,4 +153,8 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
     - Also note how always using a transformer model does not help. In the previous notebook, decomposable attention reached a much better accuracy score and more importantly took 45 minutes lesser to train.
  
 ## Generative Deep Learning [`↩`]
+* D2L_GANs.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_GANs.ipynb) 
+    - An introduction to Generative Computer Vision, trained a GAN to sample out of a particular Gaussian, and a DCGAN to generate Pokemon 
+    - Learn about Generators, Discriminators, an efficient way to write the training loop for GANs
+    - Modified some of the code in the book to adopt some techniques from Sharon Zhou's CS236G (Stanford)
 

@@ -15,9 +15,6 @@ I created this repo, as a code along space for the textbook. The book's original
 
 _**Since I have some experience in Deep Learning (with Tensorflow), my aim here was to learn PyTorch through the book and I'd recommend this repo to those who want to learn torch and already know deep learning in other frameworks. For absolute beginners I'd strongly recommend reading the book**_
 
-**Note that I have only added notebooks that I felt could be used as boilerplate to build models, hence I have omitted some of the didatic code (eg. creating models and algorithms from scratch) and used high level torch APIs wherever available which I think makes the code perfect to be used as a boilerplate in terms of neatness and efficiency.**
-
-
 
 Here, is what each notebook contains and the PyTorch constructs you will find in each of them:
 

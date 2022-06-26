@@ -158,3 +158,6 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
     - Learn about Generators, Discriminators, an efficient way to write the training loop for GANs
     - Modified some of the code in the book to adopt some techniques from Sharon Zhou's CS236G (Stanford)
 
+## Recommender Systems [`↩`]
+- Work In Progress
+- Porting MXNet code to vanilla PyTorch

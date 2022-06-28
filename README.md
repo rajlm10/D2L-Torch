@@ -158,3 +158,7 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
 ## Recommender Systems [`↩`]
 - Work In Progress
 - Porting MXNet code to vanilla PyTorch
+
+* D2L_Matrix_Factorization.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Matrix_Factorization.ipynb) 
+    - Matrix Factorization on MovieLens100k
+    - Learn about the Matrix Factorization algorithm, creating the dataset and dataloaders for Recommender System

@@ -162,3 +162,8 @@ Here, is what each notebook contains and the PyTorch constructs you will find in
 * D2L_Matrix_Factorization.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Matrix_Factorization.ipynb) 
     - Matrix Factorization on MovieLens100k
     - Learn about the Matrix Factorization algorithm, creating the dataset and dataloaders for Recommender System
+
+* D2L_Autorec.ipynb: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rajlm10/D2L-Torch/blob/main/D2L_Autorec.ipynb) 
+    - Collaborative Filtering through an AutoEncoder on MovieLens100k
+    - Learn about the nonlinear neural network collaborative filtering model, AutoRec [Sedhain et al., 2015]. It identifies collaborative filtering (CF) with an autoencoder architecture and aims to integrate nonlinear transformations into CF on the basis of explicit feedback
+    
